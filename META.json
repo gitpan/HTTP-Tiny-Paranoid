@@ -1,0 +1,49 @@
+{
+   "abstract" : "A safer HTTP::Tiny",
+   "author" : [
+      "Robert Norris <rob@eatenbyagrue.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.015, CPAN::Meta::Converter version 2.140640",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "HTTP-Tiny-Paranoid",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Class::Method::Modifiers" : "0",
+            "HTTP::TinyCarp" : "0",
+            "Net::DNS::Paranoid" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-xml-spice@rt.cpan.org",
+         "web" : "https://github.com/robn/HTTP-Tiny-Paranoid/issues"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/robn/HTTP-Tiny-Paranoid.git",
+         "web" : "http://github.com/robn/HTTP-Tiny-Paranoid"
+      }
+   },
+   "version" : "0.01"
+}
+
