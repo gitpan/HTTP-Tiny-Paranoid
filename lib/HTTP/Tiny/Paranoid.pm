@@ -1,5 +1,5 @@
 package HTTP::Tiny::Paranoid;
-$HTTP::Tiny::Paranoid::VERSION = '0.01';
+$HTTP::Tiny::Paranoid::VERSION = '0.02';
 use strict;
 use warnings;
 
@@ -38,7 +38,7 @@ HTTP::Tiny::Paranoid - A safer HTTP::Tiny
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

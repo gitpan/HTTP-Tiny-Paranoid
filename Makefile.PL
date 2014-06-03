@@ -21,14 +21,14 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "HTTP::Tiny::Paranoid",
   "PREREQ_PM" => {
+    "Carp" => 0,
     "Class::Method::Modifiers" => 0,
-    "HTTP::TinyCarp" => 0,
     "Net::DNS::Paranoid" => 0
   },
   "TEST_REQUIRES" => {
     "Test::More" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => ""
   }
@@ -36,8 +36,8 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "Carp" => 0,
   "Class::Method::Modifiers" => 0,
-  "HTTP::TinyCarp" => 0,
   "Net::DNS::Paranoid" => 0,
   "Test::More" => 0
 );

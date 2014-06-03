@@ -14,10 +14,10 @@ meta-spec:
   version: '1.4'
 name: HTTP-Tiny-Paranoid
 requires:
+  Carp: '0'
   Class::Method::Modifiers: '0'
-  HTTP::TinyCarp: '0'
   Net::DNS::Paranoid: '0'
 resources:
   bugtracker: https://github.com/robn/HTTP-Tiny-Paranoid/issues
   repository: git://github.com/robn/HTTP-Tiny-Paranoid.git
-version: '0.01'
+version: '0.02'
