@@ -23,6 +23,7 @@
          "requires" : {
             "Carp" : "0",
             "Class::Method::Modifiers" : "0",
+            "HTTP::Tiny" : "0.039",
             "Net::DNS::Paranoid" : "0"
          }
       },
@@ -44,6 +45,6 @@
          "web" : "http://github.com/robn/HTTP-Tiny-Paranoid"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
 

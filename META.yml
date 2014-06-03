@@ -16,8 +16,9 @@ name: HTTP-Tiny-Paranoid
 requires:
   Carp: '0'
   Class::Method::Modifiers: '0'
+  HTTP::Tiny: '0.039'
   Net::DNS::Paranoid: '0'
 resources:
   bugtracker: https://github.com/robn/HTTP-Tiny-Paranoid/issues
   repository: git://github.com/robn/HTTP-Tiny-Paranoid.git
-version: '0.02'
+version: '0.03'

@@ -1,5 +1,5 @@
 package HTTP::Tiny::Paranoid;
-$HTTP::Tiny::Paranoid::VERSION = '0.02';
+$HTTP::Tiny::Paranoid::VERSION = '0.03';
 use strict;
 use warnings;
 
@@ -38,7 +38,7 @@ HTTP::Tiny::Paranoid - A safer HTTP::Tiny
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
@@ -60,7 +60,7 @@ is aborted before a connect is even attempted.
 
 By default, L<Net::DNS::Paranoid> rejects connections to private network
 ranges. The blocklist & whitelist can be manipulated using the C<blocked_hosts>
-and c<whitelisted_hosts> class methods.
+and C<whitelisted_hosts> class methods.
 
 =head1 SEE ALSO
 
@@ -97,9 +97,9 @@ You will be notified automatically of any progress on your issue.
 This is open source software. The code repository is available for
 public review and contribution under the terms of the license.
 
-L<https://github.com/chansen/HTTP-Tiny-Paranoid>
+L<https://github.com/robn/HTTP-Tiny-Paranoid>
 
-  git clone https://github.com/chansen/HTTP-Tiny-Paranoid.git
+  git clone https://github.com/robn/HTTP-Tiny-Paranoid.git
 
 =head1 AUTHORS
 
